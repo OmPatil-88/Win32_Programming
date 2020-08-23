@@ -1,0 +1,44 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+MYIOCN                  ICON                    "icon.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+MENUDEMO                 MENU
+
+BEGIN
+    POPUP "&FILE"
+    BEGIN
+      POPUP "&OPEN"
+        BEGIN
+            MENUITEM "New",                         ID_OPEN_NEW
+            MENUITEM "File",                        ID_OPEN_FILE
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "&SAVE",                       IDM_FILE_SAVE
+        MENUITEM "SAVE &AS",                    IDM_FILE_SAVE_AS
+        MENUITEM "&EXIT",                       IDM_FILE_EXIT
+    END
+    POPUP "&BACKGROUND"
+    BEGIN
+        MENUITEM "&White",                      IDM_BG_WHITE, CHECKED
+        MENUITEM "&Sky Blue",                   IDM_BG_SYKBLUE
+        MENUITEM "&Gray",                       IDM_BG_GRY
+        MENUITEM "&Light Gray",                 IDM_BG_LIGHTGRY
+        MENUITEM "&Black",                      IDM_BG_BLACK
+    END
+    POPUP "&CURSOR"
+    BEGIN
+        MENUITEM "&DROP Cursor",                IDM_CURSOR_DROP, CHECKED
+        MENUITEM "&GUN Cursor",                 IDM_CURSOR_GUN
+        MENUITEM "&AIM Cursor",                 IDM_CURSOR_AIM
+    END
+END
+
+
