@@ -1,4 +1,5 @@
-//Headers
+//First windows program to display black window
+////Headers
 #include<Windows.h>
 
 //global function declarations
